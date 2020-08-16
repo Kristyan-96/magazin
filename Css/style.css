@@ -35,6 +35,13 @@ body {
   overflow: hidden;
   padding: 0 3rem;
 }
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
 .container-3 {
   align-items: center;
   justify-content: center;
@@ -102,6 +109,7 @@ body {
 }
 /*Връзка с нас*/
 #showcase-1 {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -109,19 +117,15 @@ body {
     background: skyblue;
     position: relative;
     max-height: unset;
-  
 }
 /*Продукти*/
 .item {
   width: 200px;
   height: 300px;
   border: black 1px solid;
-  
-  
 }
 .icon {
   float: right;
-  
 }
 /*Връзка с нас*/
 #contact-form {
@@ -129,7 +133,6 @@ body {
   flex-direction: column;
   margin-top: 40px;
   justify-content: flex-start;
-  width: 50%;
 }
 #contact-form .container h1 {
   color:black;
@@ -137,7 +140,6 @@ body {
 }
 #contact-form label {
   display: inline-block;
-  width: 50%;
   margin-bottom: 5px;
   border-radius: 20px;
   color: black;
@@ -202,6 +204,14 @@ border-radius: 20px;
     overflow: hidden;
     padding: 0 3rem;
   }
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
   .container-3 {
     display: flex;
     align-items: center;
@@ -221,13 +231,6 @@ border-radius: 20px;
     font-size:3rem;
   }
   /*Връзка с нас*/
-  #contact-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    justify-content: flex-start;
-    width: 100%;
-  }
   .mapouter {
     position: relative;
     text-align: right;
